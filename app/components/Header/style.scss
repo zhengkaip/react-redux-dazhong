@@ -1,0 +1,21 @@
+.common-header{
+    background-color: #e9203d;
+    color: #fff;
+    padding: 0.4rem 0.43rem;
+    text-align: center;
+    position: relative;
+    .back-icon{
+    	width: 0.68rem;
+		height: 0.68rem;
+		position: absolute;
+		left: 0.43rem;
+        i{
+            font-size:0.68rem;
+        }
+    }
+    h2{
+    	display: inline;
+	    font-size: 0.77rem;
+	    line-height: 1;
+    }
+}

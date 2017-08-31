@@ -1,0 +1,24 @@
+.buy-and-store{
+	padding:0.43rem;
+	background:#fff;
+	border:1px solid #f1f1f1;
+	text-align:center;
+	.wrap{
+		width:9.83rem;
+		margin:0 auto;
+	}
+	button{
+		height:1.45rem;
+		width:4.27rem;
+		border:1px solid #666;
+		color:#666;
+		font-size:0.68rem;
+	}
+	.collect{
+		margin-right:1.28rem;
+	}
+	.active{
+		color: #e9203d;
+   		border: 1px solid #e9203d;
+	}
+}

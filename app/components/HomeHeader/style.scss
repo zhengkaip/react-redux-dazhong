@@ -1,0 +1,42 @@
+.home-header{
+	height:2.14rem;
+	background:#e9203d;
+	padding:0.43rem;
+	.home-city{
+		width:2.56rem;
+		a{
+			color: #fff;
+		    font-size: 0.68rem;
+		    line-height:1.28rem;
+		}
+		i{
+			font-size:0.77rem;
+		}	
+	}
+	.home-input{
+		position:relative;
+		input{
+			width:11.333rem;
+			height:1.28rem;
+			font-size:0.6rem;
+			padding-left:1rem;
+			color:#666;
+			border-radius:0.64rem;
+			border:none;
+		}
+		.icon-search{
+			position: absolute;
+			left:0.2rem;
+			top:50%;
+			transform:translateY(-50%);
+			font-size:0.68rem;
+			color:#ccc;
+		}
+	}
+	.icon-user{
+		line-height:1.28rem;
+		font-size:0.68rem;
+		color:#fff;
+	}
+}
+

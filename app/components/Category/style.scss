@@ -1,0 +1,45 @@
+.header-carousel{
+    background:#fff;
+    margin-bottom:0.43rem;
+}
+.index-container {
+    position:relative;
+    height:1.2rem;
+    ul {
+        position:absolute;
+        left:50%;
+        top:50%;
+        transform:translateX(-50%) translateY(-50%);
+        height: auto;
+        text-align: center;
+        padding:0.43rem;
+    }
+    li {
+        list-style: none;
+        float:left;
+        height:0.34rem;
+        width: 0.34rem;
+        border-radius: 0.17rem;
+        background-color: #ccc;
+        margin:0 0.16rem;
+    }
+    li.selected {
+        background-color: rgb(233, 32, 61);
+    }
+}
+.carousel{
+    ul{
+        padding:0.43rem;
+        li{
+            width:20%;
+        }
+    }
+    a{  
+        display:block;
+        line-height:0.85rem;
+        padding-top:2.14rem;
+        font-size:0.6rem;
+        color:#666;
+        text-align:center;
+    }
+}

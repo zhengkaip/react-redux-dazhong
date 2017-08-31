@@ -1,0 +1,41 @@
+.search-header{
+	height:2.14rem;
+	background:#e9203d;
+	padding:0.43rem 0.85rem;
+	.return-page{
+		line-height:1.28rem;
+		i{
+			font-size:0.68rem;
+			color:#fff;
+		}
+	}
+	.search-input{
+		position:relative;
+		width:13.03rem;
+		height:1.28rem;
+		margin-left:0.43rem;
+		border-radius:0.64rem;
+		background:#fff;
+		padding-left:0.85rem;
+		i{
+			position: absolute;
+			top:50%;
+			left:0.21rem;
+			transform:translateY(-50%);
+			font-size:0.85rem;
+			color:#ccc;
+		}
+		input{
+			width:11.97rem;
+			padding-left:0.43rem;
+			line-height:1.28rem;
+			height:1.28rem;
+			border:none;
+			vertical-align:bottom;
+			border-radius:0 0.64rem 0.64rem 0;
+			font-size:0.6rem;
+			color:#333;
+		}
+	}
+
+}

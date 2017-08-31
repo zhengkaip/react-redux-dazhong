@@ -1,0 +1,48 @@
+.list-item {
+    width: 100%;
+    padding: 0.43rem 0;
+    border-bottom: 1px solid #f1f1f1;
+}
+.list-item .item-img-container {
+    width: 5.13rem;
+    height: 3.42rem;
+    img{
+    	width: 100%;
+    	height: 100%;
+    	font-size:0.6rem;
+    }
+}
+.list-item .item-content {
+    margin-left: 4.27rem;
+    padding-left:1.28rem;
+    .item-title-container {
+    	height:1rem;
+	}
+	.item-title-container h3 {
+	    font-size:0.68rem;
+	    line-height:1rem;
+	    color: #333;
+	}
+	.item-title-container span {
+		font-size: 0.56rem;
+		line-height: 0.77rem;
+		color: #999;
+	}
+	.item-sub-title {
+		font-size:0.6rem;
+		color: #666;
+		line-height:1.28rem;
+		overflow:hidden;
+		white-space:nowrap;
+		text-overflow:ellipsis
+	}
+	.item-price-container .price {
+	    font-size: 0.77rem;
+	    font-weight: 900;
+	    color: #e9203d;
+	}
+	.item-price-container .mumber {
+	    font-size: 0.56rem;
+	    color: #999;
+	}
+}

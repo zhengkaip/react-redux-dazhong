@@ -1,0 +1,55 @@
+#login-container {
+    width: 12.82rem;
+    margin: 6.84rem auto 0 auto;
+    
+    .input-container {
+        background-color: #fff;
+        border: 1px solid #fff;
+        padding: 0.4rem 0.43rem;
+        border-radius: 0.21rem;
+        overflow: hidden;
+
+        input {
+            font-size: 0.68rem;
+            display: block;
+        }
+        i {
+            color: rgb(233, 32, 61);
+            width: 0.68rem;
+            float: left;
+        }
+    }
+    .phone-container {
+        input {
+            margin-left: 1rem;
+        }
+    }
+    .password-container {
+        margin-top: 0.43rem;
+        input {
+            margin-left:1rem;
+            margin-right: 3.42rem;
+        }
+        button {
+            width: 3.42rem;
+            height: 100%;
+            font-size: 0.68rem;
+            color: rgb(233, 32, 61);
+            border: 0;
+            background-color: #fff;
+            text-align: center;
+            float: right;
+        }
+    }
+    .btn-login {
+        width: 100%;
+        text-align: center;
+        background-color: rgb(233, 32, 61);
+        color: #fff;
+        border: 1px solid rgb(233, 32, 61);
+        border-radius: 0.21rem;
+        font-size: 0.68rem;
+        margin-top: 0.43rem;
+        padding: 0.21rem 0;
+    }
+}

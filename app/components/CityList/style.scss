@@ -1,0 +1,30 @@
+.city-list-container {
+    background-color: #fff;
+    padding: 0.43rem 0.64rem 0.85rem 0.64rem;
+
+    h3 {
+        font-size: 0.68rem;
+    }
+
+    ul {
+        display: block;
+        width: 100%;
+    }
+
+    li {
+        list-style: none;
+        display: block;
+        float: left;
+        width: 33.3%;
+        text-align: center;
+
+        span {
+            display: inline-block;
+            border: 1px solid #ccc;
+            font-size: 0.68rem;
+            line-height: 2;
+            margin-top: 0.64rem;
+            width: 90%;
+        }
+    }
+}
