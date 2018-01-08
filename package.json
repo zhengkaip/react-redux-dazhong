@@ -6,7 +6,8 @@
   "scripts": {
     "start": "NODE_ENV=dev webpack-dev-server --progress --colors --history-api-fallback",
     "build": "rm -rf ./build && NODE_ENV=production webpack --config ./webpack.production.config.js --progress --colors",
-    "mock": "node --harmony ./mock/server.js"
+    "mock": "node --harmony ./mock/server.js",
+    "bundle": "./node_modules/.bin/webpack"
   },
   "author": "",
   "license": "ISC",
@@ -42,6 +43,7 @@
   "dependencies": {
     "core-decorators": "^0.12.3",
     "es6-promise": "^4.1.1",
+    "immutable": "^3.8.2",
     "react": "^15.3.1",
     "react-addons-pure-render-mixin": "^15.6.0",
     "react-dom": "^15.3.1",

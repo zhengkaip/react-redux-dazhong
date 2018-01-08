@@ -8,9 +8,12 @@ import Category from "../../components/Category"
 import Ad from "./subpage/Ad"
 import LoveList from "./subpage/LoveList.jsx"
 
+console.log(React.Component)
+
 class Home extends React.Component{
 	constructor(props) {
 	  super(props);
+	  console.log("this.props:",this.props)
 	  this.shouldComponentUpdate=PureRenderMixin.shouldComponentUpdate.bind(this)
 	  this.state = {};
 	}
